@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'fr' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/axelg/ProjetTalentTroop - Copie
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54610
+Successfully changed project path to: C:/Users/axelg/ProjetTalentTroop - Copie
+C:/Users/axelg/ProjetTalentTroop - Copie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 57126252 [EditorId] 57126252 [Version] 1048832 [Id] WindowsEditor(7,NitroAxel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 57126252 [EditorId] 57126252 [Version] 1048832 [Id] WindowsEditor(7,NitroAxel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 75.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/axelg/ProjetTalentTroop - Copie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   27.21.14.6262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003731 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\axelg\ProjetTalentTroop - Copie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\axelg\ProjetTalentTroop - Copie\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Mirror.Welcome:OnInitializeOnLoad () (at Assets/Mirror/Editor/Welcome.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (88.3 KB). Loaded Objects now: 4181.
+Memory consumption went from 147.3 MB to 147.2 MB.
+Total: 2.937400 ms (FindLiveObjects: 0.363500 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.347000 ms  DeleteObjects: 0.102300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20743.638508 seconds.
+  path: Assets/Prefabs/assault_rifle_03.fbx
+  artifactKey: Guid(27f26eca925a3b043aa6328243f4360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/assault_rifle_03.fbx using Guid(27f26eca925a3b043aa6328243f4360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d69569c0e1a86e056dc619eb5b5f88e') in 0.147690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.923537 seconds.
+  path: Assets/Prefabs/Low Poly FPS Pack Texture.png
+  artifactKey: Guid(1437bee1f18e9674fa9bfa5254424178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Low Poly FPS Pack Texture.png using Guid(1437bee1f18e9674fa9bfa5254424178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb80df64798853916760c6793c5f6ec') in 0.018582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 191.924230 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat
+  artifactKey: Guid(84335f003ad8f42408d13787e76d4f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Blue.mat using Guid(84335f003ad8f42408d13787e76d4f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3425c7d6a23ce8eafbdd372c97bfc') in 0.018392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005630 seconds.
+  path: Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat
+  artifactKey: Guid(29b49c27a74f145918356859bd7af511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Textures/(Public Domain) Dirt Hand Painted Texture/Dirt.mat using Guid(29b49c27a74f145918356859bd7af511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c16f3dad5f772d0095b3e5d37f8f52') in 0.191829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579964 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat
+  artifactKey: Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Green.mat using Guid(bbe2c7293af197640a2b40018e79b9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003c5df69a396e28c2c9f9262fdc38ed') in 0.024991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221525 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat
+  artifactKey: Guid(7e6bf26596c6f564097734c7cc319e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Models/Icosphere/Materials/Icosphere.mat using Guid(7e6bf26596c6f564097734c7cc319e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eff1827931a2364b52e076d9c27051') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258942 seconds.
+  path: Assets/Prefabs/Materials/Low Poly FPS Pack Texture.mat
+  artifactKey: Guid(0897a0e6e88f2014fb76abedf1ddb09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials/Low Poly FPS Pack Texture.mat using Guid(0897a0e6e88f2014fb76abedf1ddb09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e40d64d8b3b2e32a7ed3ccb41a98cd') in 0.010105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341641 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Orange.mat
+  artifactKey: Guid(9095a4dceda11a647a2a09eb02873cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Orange.mat using Guid(9095a4dceda11a647a2a09eb02873cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7527fa9e93594800de36b6e82b3a525e') in 0.025756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat
+  artifactKey: Guid(42fe0bcfbb65da3429ae2c289686e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/PlayArea.mat using Guid(42fe0bcfbb65da3429ae2c289686e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a693ba4f1ebd0fae1fda259d16c02d22') in 0.133438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat
+  artifactKey: Guid(3500dce637708024da2f2e45e4f71cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Portal.mat using Guid(3500dce637708024da2f2e45e4f71cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad7ccdefe7ce2c94580f19134a9934') in 0.156556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109019 seconds.
+  path: Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat
+  artifactKey: Guid(2becd2014627a774e9e8f668f281f1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleAdditiveScenes/Materials/Render/Prize.mat using Guid(2becd2014627a774e9e8f668f281f1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aee40ba67c28b7a92230bc0d968972') in 0.016673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223607 seconds.
+  path: Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat
+  artifactKey: Guid(cba1b63a0bccc4b12ac25f05d0ae2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Textures/ProjectileMaterial.mat using Guid(cba1b63a0bccc4b12ac25f05d0ae2dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a97646253d8b12c8f4737fe808f151') in 0.013927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024534 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx
+  artifactKey: Guid(38b49695fc0a4418bbc350f2366660c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/reconTank.fbx using Guid(38b49695fc0a4418bbc350f2366660c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab368b1d8a88f6b794475ce1e0c551b') in 0.038933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.440588 seconds.
+  path: Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat
+  artifactKey: Guid(6ec777c59ba249a4aa16956e9dd9a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/RigidbodyPhysics/Materials/Red.mat using Guid(6ec777c59ba249a4aa16956e9dd9a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca437a09ef8b7278409390f7e0b7c482') in 0.013202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028339 seconds.
+  path: Assets/Mirror/Examples/Snapshot Interpolation/ServerMaterial.mat
+  artifactKey: Guid(163b909ba60cc435a95bb35396edda15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Snapshot Interpolation/ServerMaterial.mat using Guid(163b909ba60cc435a95bb35396edda15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801745a72e7b2df890270551061427d') in 0.028608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030437 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
+  artifactKey: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374e4f92e48ea689fcc548f869060980') in 0.161962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292243 seconds.
+  path: Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat
+  artifactKey: Guid(2e67e42170aa64aa9a33424f8045ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Tanks/Models/(Public Domain) Recon_Tank/TankMaterial.mat using Guid(2e67e42170aa64aa9a33424f8045ac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f58884ffe2d3dfb3803011ccb6316a7') in 0.218498 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
