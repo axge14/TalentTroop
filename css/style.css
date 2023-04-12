@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}   
+body{
+    background-color: #B0E0E6;
+    overflow-x: hidden;
+    
+}
+
+.top-page{
+    background: url(../Images/jungle.jpg);
+    background-size: cover;
+}
+.header img {
+    width:102px;
+    height: 60px;
+}
+
+.header {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    border-color: aliceblue;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+
+/* navigation */
+.nav {
+    display: flex;
+    list-style: none;
+    box-sizing: border-box  ;
+}
+
+.nav li {
+    margin: 40px;
+    overflow: hidden;
+}
+
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: transform 0.4s;
+}
+
+.nav a::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+}
+
+.nav  a:hover {
+    transform: translateY(-100%);
+}
+
+.connexion{
+    position: absolute ;
+    right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #2E8B57;
+    text-decoration: none;
+    
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 1.6rem;
+    list-style-type: none ;
+} 
+.connexion a{
+    font-size: 15px;
+    color: white;
+    display: contents;
+    font-family: "FF Mark W05",Arial,sans-serif;
+}
+.connexion:hover{
+    background-color: gray;
+    transition-duration: 0.3s ;
+}
+/* Landing page */
+
+div.Text {
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    padding: 100px;
+    top: 180px;
+    box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .2);
+}
+
+/*Slider*/
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position:relative;
+    width: 300%;
+    margin:0;
+    left:0;
+    animation: 60s slider infinite;
+    display: flex;
+}
+
+#slider figure img{
+    width: 20% ;
+    float: left;
+    
+}
+.slide{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+@keyframes slider{
+    0% {
+        left :0;
+    }
+    10% {
+        left:0;
+    }
+    20% {
+        left:-100%;
+    }
+    30% {
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    60%{
+        left:-200%;
+    }
+    70% {
+        left:-100%;
+    }
+    80% {
+        left: -100%;
+    }
+    0% {
+        left :0;
+    }
+    100% {
+        left:0;
+    }
+}
+
+
+
